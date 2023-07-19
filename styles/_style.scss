@@ -1,0 +1,12 @@
+// Then add additional custom code here
+.navbar-brand {
+  font-family: $font-family-secondary;
+}
+
+.section--xl {
+  padding: $padding-xl 0;
+
+  @media (min-width: 768px) {
+    padding: $padding-2xl 0;
+  }
+}
